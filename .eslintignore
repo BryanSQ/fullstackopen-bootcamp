@@ -1,3 +1,5 @@
 build
 .eslintrc.js
 mongo.js
+node_modules
+dist
