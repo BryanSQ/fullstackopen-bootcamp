@@ -5,6 +5,31 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "Test",
-  "important": true
+  "content": "Note with user number 2",
+  "important": true,
+  "userId": "6580e30c267aaa7f1cab891a"
+}
+
+
+
+
+###
+#register
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "username": "Test User",
+  "password": "bryan"
+}
+
+
+###
+#login
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+  "username": "Test User",
+  "password": "bryan"
 }
